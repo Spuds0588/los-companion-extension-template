@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LOS Companion</title>
+    <link rel="stylesheet" href="sidepanel.css">
+</head>
+<body>
+    <div class="tabs">
+        <button class="tab-btn active" data-target="raw-context">Raw Context</button>
+        <button class="tab-btn" data-target="video-room">Video Room</button>
+        <button class="tab-btn" data-target="external-iframe">External App</button>
+    </div>
+    
+    <div id="status" class="waiting">Waiting for an LOS record page...</div>
+
+    <div id="raw-context" class="tab-content active">
+        <pre id="context-data">No data yet.</pre>
+    </div>
+    
+    <div id="video-room" class="tab-content">
+        <p>Video room integrations will render here.</p>
+    </div>
+
+    <div id="external-iframe" class="tab-content">
+        <p>Iframe mounting point for CRMs.</p>
+    </div>
+
+    <script src="sidepanel.js"></script>
+</body>
+</html>
