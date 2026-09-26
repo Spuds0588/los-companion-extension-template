@@ -1,5 +1,7 @@
 # LOS Companion Extension Template
 
+> **🌐 Live landing page:** [spuds0588.github.io/los-companion-extension-template](https://spuds0588.github.io/los-companion-extension-template/) — quick overview, FAQ, and a ready-to-use AI-agent prompt for customizing this template.
+
 A lightweight, modular Chrome Extension template designed to act as a starting point for integrating **any web-based Loan Origination System (LOS)** — or any web app with URL-addressable records — with external tools (CRMs, communication platforms, tracking databases).
 
 ## Why this exists
